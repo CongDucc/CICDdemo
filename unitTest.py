@@ -12,7 +12,7 @@ class TestIsPrime(unittest.TestCase):
         self.assertTrue(is_prime(2))
         self.assertTrue(is_prime(3))
         self.assertTrue(is_prime(5))
-        self.assertTrue(is_prime(9))  # ❌ 9 không phải số nguyên tố!
+        self.assertTrue(is_prime(9))  #Thêm lỗi sai để test workflow
 
     def test_small_non_primes(self):
         self.assertFalse(is_prime(4))
