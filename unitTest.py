@@ -13,6 +13,7 @@ class TestIsPrime(unittest.TestCase):
         self.assertTrue(is_prime(3))
         self.assertTrue(is_prime(5))
         self.assertTrue(is_prime(7))
+        self.assertTrue(is_prime(9))  # <--- Đây là số không phải số nguyên tố!
 
     def test_small_non_primes(self):
         self.assertFalse(is_prime(4))
